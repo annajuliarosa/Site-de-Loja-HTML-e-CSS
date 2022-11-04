@@ -1,0 +1,206 @@
+*{ margin:0;
+  padding: 0;
+   
+}
+  
+body{	  
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  margin: 0;
+}  
+
+/******************CABEÇALHO********************/
+
+header{  
+  background-color: #EE82EE;
+  color: white;
+	 	  
+}
+   
+.titulo{
+  display: flex;
+  justify-content:center;
+  align-items: center; 
+  font-size: 1.6em;
+	 	  
+  }
+
+a {
+  text-decoration: none;
+  color: #EE82EE;
+  width: 250px;	
+  display: flex;
+  justify-content:center;
+	
+		
+} 
+
+nav.botaoMenu1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+  padding-bottom: 3%;
+  flex-wrap: wrap;
+	
+}
+
+.botaoMenu {	
+  background-color: white;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 20px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 20%;
+  padding: 3%;  
+		
+}
+
+/******************RODAPE********************/
+
+.final {
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #EE82EE;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+     
+  /******************PAGINA INDEX********************/
+  
+section {
+	  
+  height: 100%;
+	  
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2%;
+}
+  
+section h1{
+  display: flex;
+  justify-content: center;
+  padding: 2.5%;
+  color: #EE82EE;
+	
+}
+
+section img{
+  width: 90%;		
+  display: flex;
+  	  
+}
+  
+.corpo1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;   
+  flex-wrap: wrap;
+
+}
+  
+.corpo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 226px;
+  margin: 2%;
+}
+  
+button{
+	  
+  background-color: #EE82EE;
+  border-color: #EE82EE;
+  margin-top: 10%;
+  margin-left: 14%;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;	
+  border-radius: 17px;
+
+}
+
+/******************PAGINA FEMININO E MASCULINO********************/
+ 
+.content{
+  width: 100%;
+  border-radius: 15px;
+
+}
+
+.containerPaginas {
+	display: flex;
+
+}
+
+.produtos{
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+  flex-wrap: wrap;
+
+}
+	 
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 203px;
+  padding: 3%;
+		
+} 
+   
+.sidebar{
+  border: 0.5rem outset #EE82EE;
+  padding: 1%;
+  border-radius: 20px;
+  width: 141px;
+  margin: 1% 3%;
+  height: 864px;
+  margin-top: 7%;
+	
+}
+
+h3 {
+  text-align: center;
+}
+
+.opcao {
+  padding: 5%;
+  display: flex;
+  margin-top: 7%;
+	
+}
+
+.sessao{
+  padding: 10% 0;
+  margin-top: 24%;
+	
+}
+  
+.sidebar a{
+  padding: 4% 0;
+  text-decoration: none;
+  color: black;
+   
+} 
+ 
+  
